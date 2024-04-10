@@ -1,0 +1,170 @@
+/* Polices */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Modules */
+@import 'header/header.css';
+@import 'info/info.css';
+@import 'accomodation-and-featured/accomodation-and-featured.css';
+@import 'cards/cards.css';
+@import 'activity/activity.css';
+@import 'footer/footer.css';
+
+/********** Global **********/
+
+* {
+    font-family: 'Raleway';
+}
+
+:root {
+    /* Colors */
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+
+    /* Text configuration */
+    --body-font: 'Raleway';
+    --body-highlight-font: 'Raleway';
+    --header-font: 'Raleway';
+    --title-font: 'Raleway';
+    --body-font-weight: 400;
+    --body-font-size: 16px;
+    --body-line-height: 1.5;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    color: var(--black);
+}
+
+p {
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: var(--body-font-weigh);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    color: var(--black);
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+
+h1 {
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: var(--body-font-weigh);
+    font-size: 48px;
+    line-height: var(--body-line-height);
+    color: var(--black);
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+
+h2 {
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: var(--body-font-weigh);
+    font-size: 32px;
+    line-height: var(--body-line-height);
+    color: var(--black);
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+
+h3 {
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: var(--body-font-weigh);
+    font-size: 24px;
+    line-height: var(--body-line-height);
+    color: var(--black);
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/********** Main Container **********/
+
+.main-container {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 90rem;
+    padding: 0 3.125rem;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 64px;
+}
+
+.section-title {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.link-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-top: 1.563rem;
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media (max-width: 1023.98px) {
+    .accomodation-and-featured {
+        flex-direction: column;
+    }
+
+    .accomodation {
+        width: 100%;
+    }
+
+    .featured {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .featured-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .featured-cards a {
+        width: 30%;
+    }
+
+    .featured-cards .card-title {
+        font-size: 0.875rem;
+    }
+
+    .featured-cards .card-subtitle {
+        font-size: 0.813rem;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    /* ... */
+}

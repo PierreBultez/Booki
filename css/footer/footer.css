@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: var(--main-bg-color);
+}
+
+.footer-menu {
+    width: 33.3%;
+    height: 10.25rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+}
+
+.footer-menu section {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-menu h4 {
+    margin: 0;
+}
+
+.footer-menu p {
+    margin-top: 0.625rem;
+}

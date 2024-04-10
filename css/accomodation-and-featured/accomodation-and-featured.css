@@ -1,0 +1,51 @@
+/********** Accomodation And Featured **********/
+
+.accomodation-and-featured {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.188rem;
+}
+
+.accomodation-and-featured section {
+    padding: 1.875rem;
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+/********** Accomodation **********/
+
+.accomodation {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.accomodation-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/********** Featured **********/
+
+.featured {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
