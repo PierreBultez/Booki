@@ -1,5 +1,4 @@
 # Booki
-Projet_3_Integrez_la_page_web_de_Booki
 
 Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki.
 
@@ -33,3 +32,5 @@ https://www.figma.com/file/B3eLowtWREc9YXzBcGRAHn/Maquettes-Booki-(desktop)?node
 https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/DWP_P3+HTML+CSS+Booki/DWP+Booki+-+Note+de+synthese.pdf
 
 https://github.com/OpenClassrooms-Student-Center/booki-starter-code.git
+
+Ravi par ce projet, vous commencez par vous plonger dans l’étude de la maquette !
